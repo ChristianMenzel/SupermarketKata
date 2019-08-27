@@ -14,6 +14,7 @@ function queueTime(queue, tills){
     
     // as long as there is something in queue
 	while (queue.length > 0){
+        
 		// which singleQueue is shortest?
 		var maxKey = _.min(Object.keys(singleQueues),function(o){return singleQueues[o]})
         
